@@ -4,12 +4,13 @@
 
 * {
     margin: 0;
+    /*overflow: hidden;*/
 }
 
 #wrapper {
     background-color: darkgray;
     position: relative;
-    width: 33%;
+    width: 66%;
     margin: auto;
 }
 
@@ -22,14 +23,22 @@
 .Home {
     z-index: 1;
     position: absolute;
-    right: 0%;
-    top: 0%;
+    right: 5%;
+    top: 3%;
+    width: 66.66%;
 }
 
 .Home a {
     text-decoration: none;
     color: #000;
+    padding: 0% 3% 0%;
+    margin: 0 5% 0;
 }
+
+/*.home a button {
+    background: transparent;
+    border-radius: 5px;
+}*/
 
 /*header styling*/
 
@@ -39,9 +48,9 @@
 
 #header h1 {
     position: absolute;
-    top: 60%;
+    top: 70%;
     z-index: 1;
-    margin-left: 0.5%;
+    margin-left: 1%;
 }
 
 /*visitor form styling*/
@@ -50,8 +59,10 @@
     background-color: white;
     width: 33%;
     height: 33%;
+    z-index: 2;
+    position: absolute;
+    left: 60%;
+    top: 60%;
 }
 
-#visitorsForm input {
-    width: 33%
-}
+#visitorsForm input {}

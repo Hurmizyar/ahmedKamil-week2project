@@ -18,11 +18,19 @@
         <header id="header">
 
             <img src="Images/pillow.jpg">
-            <nav class="Home">
-                <a href="#">About Us</a>
-                <a href="#">FAQ</a>
-                <a href="html/contact.html">Contact Us</a>
-                <a href="html/rooms.html">Book A Room</a>
+            <nav class="Home" class="col2">
+                <a href="#">
+                    <span>About Us</span>
+                </a>
+                <a href="#">
+                    <span>FAQ</span>
+                </a>
+                <a href="html/contact.html">
+                    <span>Contact Us</span>
+                </a>
+                <a href="html/rooms.html">
+                    <span>Book A Room</span>
+                </a>
             </nav>
 
 
@@ -30,19 +38,20 @@
                 <br>dreams
                 <br>hostel
             </h1>
+            <section id="visitorsForm" class="col1">
+                <label>Visitors</label>
+                <input type="number" name="visitor" maxlength="2" required>
+                <label>Check-In</label>
+                <input type="date" name="checkIn">
+                <label>Check-Out</label>
+                <input type="date" name="checkout">
+                <input type="submit" value="Continue">
+
+            </section>
 
         </header>
 
-        <section id="visitorsForm" class="col1">
-            <label>Visitors</label>
-            <input type="number" name="visitor" maxlength="2" required>
-            <label>Check-In</label>
-            <input type="date" name="checkIn">
-            <label>Check-Out</label>
-            <input type="date" name="checkout">
-            <input type="submit" value="Continue">
 
-        </section>
         <section id="ourServices">
             <div>
                 <i class="fas fa-shower"></i>
