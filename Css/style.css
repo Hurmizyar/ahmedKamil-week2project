@@ -3,8 +3,14 @@
 /*universal styling*/
 
 * {
-    margin: 0;
+    margin: auto;
     /*overflow: hidden;*/
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
 }
 
 #wrapper {
@@ -57,12 +63,134 @@
 
 #visitorsForm {
     background-color: white;
-    width: 33%;
-    height: 33%;
+    width: 44%;
+    height: 64%;
     z-index: 2;
     position: absolute;
-    left: 60%;
-    top: 60%;
+    left: 52%;
+    top: 41%;
 }
 
-#visitorsForm input {}
+/*our servese section styling*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container div {
+    width: 33%;
+    display: inline-block;
+}
+
+.container2 div {
+    width: 33%;
+}
+
+#ourServices div {
+    margin: 0;
+}
+
+#ourServices h2 {
+    text-align: center;
+    margin: 10% 0% 5%;
+}
+
+#ourServices div p {
+    text-align: center;
+}
+
+#ourServices i {
+    width: 100%;
+    margin: 0 0% 10% 40%;
+}
+
+/*paragraph and picture stylyng*/
+
+#ourBigRoom {
+    display: flex;
+}
+
+#ourBigRoom img {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 66%;
+    margin: 0px;
+}
+
+.paragraph {
+    width: 33%;
+    margin: 0px;
+}
+
+.ourRoom {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ourRoom a {
+    text-decoration: none;
+    color: #000;
+}
+
+#whatOurGuestSay {
+    margin: 10% 0% 8% 0%;
+}
+
+#whatOurGuestSay h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#whatOurGuestSay div {
+    width: 33%;
+}
+
+.picwrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+}
+
+footer h3 {
+    margin: 3% 0% 0% 5%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.input input {
+    width: 100%;
+    border-radius: 5px;
+    border-color: #000;
+    margin: 1% 0% 1% 3%;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col2 {
+    width: 66%;
+}
