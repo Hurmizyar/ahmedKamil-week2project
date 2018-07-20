@@ -1,0 +1,57 @@
+/*styling for the home page  */
+
+/*universal styling*/
+
+* {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: darkgray;
+    position: relative;
+    width: 33%;
+    margin: auto;
+}
+
+#wrapper img {
+    width: 100%;
+}
+
+/*navbar styling */
+
+.Home {
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.Home a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*header styling*/
+
+#header {
+    position: relative;
+}
+
+#header h1 {
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+    margin-left: 0.5%;
+}
+
+/*visitor form styling*/
+
+#visitorsForm {
+    background-color: white;
+    width: 33%;
+    height: 33%;
+}
+
+#visitorsForm input {
+    width: 33%
+}
