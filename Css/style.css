@@ -150,18 +150,20 @@ h3 {
     margin-bottom: 5%;
 }
 
-#whatOurGuestSay div {
+#whatOurGuestSay .picwrapper div {
     width: 33%;
 }
 
 .picwrapper {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .stars {
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 footer {
@@ -178,10 +180,11 @@ footer h3 {
     display: flex;
     flex-direction: column;
     width: 33%;
+    margin-left: 2%;
 }
 
 .input input {
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
     border-color: #000;
     margin: 1% 0% 1% 3%;
