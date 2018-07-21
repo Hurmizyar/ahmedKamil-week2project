@@ -1,0 +1,54 @@
+#wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+#wrapper img {
+    width: 66%;
+}
+
+#contact
+/*header*/
+
+    {
+    display: flex;
+    flex-direction: row;
+}
+
+#ourLocation {
+    display: flex;
+    flex-direction: row;
+}
+
+iframe {
+    width: 80%;
+}
+
+.ourLocationData {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourLocationData div {
+    height: 25%;
+}
+
+#getInTouch
+/*the get in touch section */
+
+    {
+    display: flex;
+    flex-direction: row;
+}
+
+#getInTouch img {
+    height: 100%;
+    width: 40%;
+}
+
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
