@@ -5,18 +5,52 @@
 * {
     margin: auto;
     /*overflow: hidden;*/
+    /* border: solid;*/
+}
+
+/*all flex row elements*/
+
+.Home {
+    display: flex;
+    flex-direction: row;
+}
+
+/*all flex colom elements*/
+
+a {
+    text-decoration: none;
+}
+
+p,
+h2 {
+    text-align: center;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col2 {
+    width: 66%;
+}
+
+img,
+iframe,
+video {
+    width: 100%;
 }
 
 h1,
 h2,
 h3 {
+    font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
 }
 
 #wrapper {
     background-color: darkgray;
     position: relative;
-    width: 66%;
+    width: 80%;
     margin: auto;
 }
 
@@ -35,10 +69,13 @@ h3 {
 }
 
 .Home a {
-    text-decoration: none;
     color: #000;
     padding: 0% 3% 0%;
-    margin: 0 5% 0;
+    /* margin: 0 5% 0; */
+}
+
+.Home a div {
+    width: 8em;
 }
 
 /*.home a button {
@@ -48,7 +85,8 @@ h3 {
 
 /*header styling*/
 
-#header {
+#header,
+#visitorsForm div {
     position: relative;
 }
 
@@ -69,18 +107,36 @@ h3 {
     position: absolute;
     left: 52%;
     top: 41%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+}
+
+#visitorsForm div {
+    width: 100%;
+    height: 100%;
+}
+
+#visitorsForm div input {
+    position: absolute;
+    right: 5%;
+}
+
+input[maxlength="2"] {
+    width: 10%
+}
+
+#visitorsForm div>input {
+    top: 50%;
 }
 
 /*our servese section styling*/
 
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
+.container,
 .container2 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10%;
 }
 
 .container div {
@@ -92,12 +148,7 @@ h3 {
     width: 33%;
 }
 
-#ourServices div {
-    margin: 0;
-}
-
 #ourServices h2 {
-    text-align: center;
     margin: 10% 0% 5%;
 }
 
@@ -108,6 +159,16 @@ h3 {
 #ourServices i {
     width: 100%;
     margin: 0 0% 10% 40%;
+}
+
+.ourRoomsButton {
+    width: 80%;
+    height: 3em;
+    display: block;
+    border-radius: 0.5em;
+    background: white;
+    border: #000 solid 0.2em;
+    text-transform: capitalize;
 }
 
 /*paragraph and picture stylyng*/
@@ -141,13 +202,10 @@ h3 {
     color: #000;
 }
 
+/*what the guest say section*/
+
 #whatOurGuestSay {
     margin: 10% 0% 8% 0%;
-}
-
-#whatOurGuestSay h2 {
-    text-align: center;
-    margin-bottom: 5%;
 }
 
 #whatOurGuestSay .picwrapper .windows {
@@ -155,27 +213,23 @@ h3 {
 }
 
 .picwrapper {
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     width: 100%;
 }
+
+/*the stars in the boy and geril pictures*/
 
 .stars {
     display: flex;
     flex-direction: row;
     margin: auto;
-}
-
-.stars {
     width: 100%;
 }
 
-.stars i {
-    padding: 0 1em 0 1em;
-}
-
 footer {
-    background-color: burlywood;
+    background-color: rgb(43, 33, 21);
     display: flex;
     flex-direction: row;
 }
@@ -198,17 +252,18 @@ footer h3 {
     margin: 1% 0% 1% 3%;
 }
 
+.input h3,
+input[type="submit"] {
+    color: #fff;
+}
+
+.input>input[type="submit"] {
+    background-color: transparent;
+}
+
 footer a {
     font-size: 1em;
     text-decoration: none;
     word-spacing: 5em;
     color: white;
-}
-
-.col1 {
-    width: 33%;
-}
-
-.col2 {
-    width: 66%;
 }
