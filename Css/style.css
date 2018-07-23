@@ -4,8 +4,6 @@
 
 * {
     margin: auto;
-    /*overflow: hidden;*/
-    /* border: solid;*/
 }
 
 /*all flex row elements*/
@@ -55,10 +53,6 @@ h3 {
     margin: auto;
 }
 
-#wrapper img {
-    width: 100%;
-}
-
 /*navbar styling */
 
 .Home {
@@ -66,30 +60,23 @@ h3 {
     position: absolute;
     right: 0%;
     top: 3%;
-    /* width: 66.66%; */
 }
 
 .Home a {
     color: #000;
     padding: 0% 0.5% 0%;
-    /* margin: 0 5% 0; */
     margin: 0;
     padding: 0.5em 0;
 }
 
 .Home .bookARoom {
     border: solid;
-    /* background-color: */
+    border-radius: 0.5em;
 }
 
 .Home a div {
     width: 8em;
 }
-
-/*.home a button {
-    background: transparent;
-    border-radius: 5px;
-}*/
 
 /*header styling*/
 
@@ -128,6 +115,7 @@ h3 {
 #visitorsForm div input {
     position: absolute;
     right: 5%;
+    /* border-radius: 0.5em; */
 }
 
 #visitorsForm div label {
@@ -139,6 +127,12 @@ h3 {
     color: black;
     display: inline-block;
     width: 100%;
+}
+
+.continue {
+    padding: 1em 2em;
+    border: solid black 1px;
+    border-radius: 0.5em;
 }
 
 input[maxlength="2"] {
