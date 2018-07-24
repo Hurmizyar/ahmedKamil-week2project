@@ -1,6 +1,7 @@
 #wrapperContact {
     width: 70%;
     margin: auto;
+    position: relative;
 }
 
 #wrapperContact iframe {
@@ -35,6 +36,7 @@ img
 .navContact {
     position: absolute;
     right: 0;
+    margin-top: 3%;
 }
 
 .navContact div {
@@ -64,8 +66,8 @@ a[href="html/rooms.html"] div {
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 33%;
-    left: 35%;
+    top: 10%;
+    left: 24%;
     background: white;
     opacity: 0.8;
     padding: 1em 8em;
