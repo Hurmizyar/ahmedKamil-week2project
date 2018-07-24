@@ -1,13 +1,26 @@
-#wrapper {
+#wrapperContact {
     width: 70%;
     margin: auto;
 }
 
-#wrapper img {
-    width: 66%;
+#wrapperContact iframe {
+    width: 96%;
 }
 
-#contact
+img
+/* .navContact*/
+
+    {
+    width: 100%;
+}
+
+/* #wrapperContact img {
+    width: 66%;
+} */
+
+#headerContact,
+#ourLocation,
+.navContact
 /*header*/
 
     {
@@ -15,12 +28,57 @@
     flex-direction: row;
 }
 
-#ourLocation {
-    display: flex;
-    flex-direction: row;
+#headerContact {
+    position: relative;
 }
 
-iframe {
+.navContact {
+    position: absolute;
+    right: 0;
+}
+
+.navContact div {
+    padding: 1em 2em;
+}
+
+.navContact a
+/*nav bar for contact*/
+
+    {
+    /* position: absolute; */
+    padding: 0em 1em;
+    text-decoration: none;
+    color: #000;
+    /* margin-top: 50% */
+}
+
+a[href="html/rooms.html"] div {
+    border: solid black 0.3em;
+    color: white;
+    background-color: rgba(149, 179, 165, 0.87);
+    color: white;
+    border-radius: 0.2em;
+}
+
+.contacH1 {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    background: white;
+    opacity: 0.8;
+    padding: 1em 8em;
+}
+
+/* {
+    display: flex;
+    flex-direction: row;
+} */
+
+/*iframe and location section*/
+
+.iframe {
     width: 80%;
 }
 
@@ -42,15 +100,28 @@ iframe {
     flex-direction: row;
 }
 
-#getInTouch img {
+.getinTouchImgDiv {
     height: 100%;
     width: 40%;
+}
+
+.getInTouch h2 {
+    text-align: center;
 }
 
 .getInTouch {
     display: flex;
     flex-direction: column;
     width: 60%;
+}
+
+.getInTouch input,
+textarea {
+    width: 60%;
+    margin: 3% auto 0;
+    border: solid black 0.2em;
+    border-radius: 0.2em;
+    padding: 3%
 }
 
 footer {
