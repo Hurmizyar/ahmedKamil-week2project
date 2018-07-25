@@ -8,16 +8,28 @@
     width: 96%;
 }
 
-img
-/* .navContact*/
-
-    {
-    width: 100%;
+a {
+    text-decoration: none;
+    text-align: center;
 }
 
-/* #wrapperContact img {
+p,
+h2 {
+    text-align: center;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col2 {
     width: 66%;
-} */
+}
+
+img,
+video {
+    width: 100%;
+}
 
 #headerContact,
 #ourLocation,
