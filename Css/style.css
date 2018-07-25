@@ -177,3 +177,10 @@ footer a {
     word-spacing: 5em;
     color: white;
 }
+
+.links
+/*the div container for footerf icons*/
+
+    {
+    margin: auto;
+}
