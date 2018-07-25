@@ -139,7 +139,7 @@ textarea {
 }
 
 footer {
-    background-color: burlywood;
+    background-color: rgb(43, 33, 21);
     display: flex;
     flex-direction: row;
 }
@@ -162,9 +162,18 @@ footer h3 {
     margin: 1% 0% 1% 3%;
 }
 
+.input h3,
+input[type="submit"] {
+    color: #fff;
+}
+
+.input>input[type="submit"] {
+    background-color: transparent;
+}
+
 footer a {
-    font-size: 2.5em;
+    font-size: 1em;
     text-decoration: none;
-    padding: 0em 0.6em 0em 0.6em;
+    word-spacing: 5em;
     color: white;
 }
