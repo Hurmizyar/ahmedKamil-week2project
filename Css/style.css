@@ -1,3 +1,15 @@
+/*wrapper styling*/
+
+.Wrapper {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
 header,
 .navContact {
     display: flex;
@@ -34,7 +46,8 @@ a[href="html/rooms.html"] div {
     color: white;
     background-color: rgba(149, 179, 165, 0.87);
     color: white;
-    border-radius: 0.2em;
+    border-radius: 3px;
+    display: inline-block;
 }
 
 /*footer styling for rooms*/
