@@ -2,6 +2,7 @@
 
 /*universal styling*/
 
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
 * {
     margin: auto;
 }
@@ -230,6 +231,16 @@ input[maxlength="2"] {
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.windows {
+    border: #000 solid 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+figure {
+    width: 80%;
 }
 
 /*the stars in the boy and geril pictures*/
