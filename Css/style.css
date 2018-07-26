@@ -36,3 +36,52 @@ a[href="html/rooms.html"] div {
     color: white;
     border-radius: 0.2em;
 }
+
+/*footer styling for rooms*/
+
+footer {
+    background-color: rgb(43, 33, 21);
+    display: flex;
+    flex-direction: row;
+}
+
+footer h3 {
+    margin: 3% 0% 0% 5%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 2%;
+}
+
+.input input {
+    width: 80%;
+    border-radius: 5px;
+    border-color: #000;
+    margin: 1% 0% 1% 3%;
+}
+
+.input h3,
+input[type="submit"] {
+    color: #fff;
+}
+
+.input>input[type="submit"] {
+    background-color: transparent;
+}
+
+footer a {
+    font-size: 1em;
+    text-decoration: none;
+    word-spacing: 5em;
+    color: white;
+}
+
+.links
+/*the div container for footerf icons*/
+
+    {
+    margin: auto;
+}
