@@ -63,7 +63,12 @@ a[href="html/rooms.html"] div {
 }
 
 .booknow {
-    margin: 10% 50%;
+    margin: 10% 0 10% 33%;
+    display: inline-block;
+}
+
+.booknow div {
+    padding: 1em 5em;
 }
 
 /*paragraph section styling*/
@@ -117,6 +122,16 @@ a[href="html/rooms.html"] div {
     margin-left: 5%;
     margin-right: 2.5%;
 }
+
+.SR2 .SRImg {
+    height: 23%;
+    overflow: hidden;
+}
+
+/* .middlePic {
+    position: relative;
+    top: -85%;
+} */
 
 /* .standardRoomWraper div {
     
