@@ -15,36 +15,58 @@
 
 <body>
     <div id="wrapper">
-        <header>
+        <header id="header">
 
             <img src="Images/pillow.jpg">
-            <nav class="Home">
-                <a href="#">About Us</a>
-                <a href="#">FAQ</a>
-                <a href="html/contact.html">Contact Us</a>
-                <a href="html/rooms.html">Book A Room</a>
+            <nav class="Home" class="col2">
+                <a href="#">
+                    <div> About Us</div>
+                </a>
+                <a href="#">
+                    <div>FAQ</div>
+                </a>
+                <a href="html/contact.html">
+                    <div>Contact Us</div>
+                </a>
+                <a class="bookARoom" href="html/rooms.html">
+                    <div>Book A Room</div>
+                </a>
             </nav>
 
-            <div class="h1Text">
-                <h1>sweet
-                    <br>dreams
-                    <br>hostel
-                </h1>
-            </div>
+
+            <h1>sweet
+                <br>dreams
+                <br>hostel
+            </h1>
+            <!--visitour form -->
+            <section id="visitorsForm" class="col1">
+                <div>
+
+                    <label>Visitors</label>
+                    <input type="number" name="visitor" maxlength="2" required>
+
+                </div>
+                <div>
+                    <label>Check-In</label>
+                    <input type="date" name="checkIn">
+                </div>
+                <div>
+                    <label>Check-Out</label>
+                    <input type="date" name="checkout">
+                </div>
+
+                <a href="#">
+                    <div class="continue">continue</div>
+                </a>
+
+
+            </section>
 
         </header>
 
-        <section id="visitorsForm">
-            <label>Visitors</label>
-            <input type="number" name="visitor" maxlength="2" required>
-            <label>Check-In</label>
-            <input type="date" name="checkIn">
-            <label>Check-Out</label>
-            <input type="date" name="checkout">
-            <input type="submit" value="Continue">
-
-        </section>
+        <!--our services sections -->
         <section id="ourServices">
+<<<<<<< HEAD
             <div>
                 <i class="fas fa-shower"></i>
                 <p>Hot And Cold Water</p>
@@ -61,18 +83,45 @@
                 <i class="fas fa-camera"></i>
                 <p>Discount On Daily Tour</p>
             </div>
+=======
+            <h2>our services</h2>
+            <div class="container">
+                <div>
+>>>>>>> home
 
-            <div>
-                <i class="far fa-credit-card"></i>
-                <p>We Accept All Majot Credit Cards</p>
+                    <i class="fas fa-shower fa-2x"></i>
+                    <p>Hot And Cold Water</p>
+                </div>
+                <div>
+                    <i class="fas fa-key  fa-2x"></i>
+                    <p>Private Lockers in Rooms</p>
+                </div>
+                <div>
+                    <a href="#"></a>
+                    <i class="fas fa-wifi fa-2x"></i>
+                    <p>Wifi Accese In All Rooms</p>
+                </div>
             </div>
-            <div>
-                <i class="fas fa-utensils"></i>
-                <p>Free Breakfast</p>
+            <div class="container2">
+                <div>
+                    <i class="fas fa-camera fa-2x"></i>
+                    <p>Discount On Daily Tour</p>
+                </div>
+
+                <div>
+                    <i class="far fa-credit-card fa-2x"></i>
+                    <p>We Accept All Majot Credit Cards</p>
+                </div>
+                <div>
+                    <i class="fas fa-utensils fa-2x"></i>
+                    <p>Free Breakfast</p>
+                </div>
             </div>
 
         </section>
+        <!--our big room section-->
         <section id="ourBigRoom">
+<<<<<<< HEAD
             <img src="Images/desk.jpg" alt="A Room With a Desk and bed ">
             <Div>
                 <p>
@@ -88,6 +137,29 @@
                     <button>
                         <a href="html/rooms.html">See Our Rooms</a>
                     </button>
+=======
+            <div class="image" class="col2">
+                <img class="col2" src="Images/desk.jpg" alt="A Room With a Desk and bed ">
+            </div>
+            <div class="paragraph">
+
+                <h2>our rooms are big and beautiful</h2>
+                <p id="homeParagraph" class="col1"></p>
+                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos
+                erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus
+                sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet.
+
+
+                <a href="html/rooms.html">
+                    <button class="ourRoomsButton">see Our Rooms</button>
+                </a>
+
+
+>>>>>>> home
 
                 </p>
             </Div>
@@ -95,11 +167,14 @@
         <section id="whatOurGuestSay">
             <h2>What Our
                 <br> Guests Say...</h2>
-            <div class="wrapper">
-                <div>
-                    <img src="Images/women.jpg" alt="Beutiful lady with a backpack smiling">
-                    <p>"Beutiful rooms, delicious breakfast, amazing people I would absolutly recommend this place!"
-                        <br>-AMINA FROM CANADA</p>
+            <div class="picwrapper">
+                <div class="windows">
+                    <figure>
+                        <img src="Images/women.jpg" alt="Beutiful lady with a backpack smiling">
+                    </figure>
+                    <p>"Beutul rooms, delicious breakfast, amazing people I would absolutly recommend this place!"
+                        <br> -AMINA FROM CANADA
+                    </p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -109,8 +184,10 @@
 
                     </div>
                 </div>
-                <div>
-                    <img src="Images/man.jpg" alt="Handsome man with sunglasses">
+                <div class="windows">
+                    <figure>
+                        <img src="Images/man.jpg" alt="Handsome man with sunglasses">
+                    </figure>
                     <p>"There is such a great atmosphere in this place. the staff is so helpful and friendly and the daily tours
                         are a lot of fun!"
                         <br>-JACOB FROM AUSTRIA</p>
@@ -120,27 +197,33 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+
                     </div>
                 </div>
             </div>
         </section>
         <footer id="stayInTouch">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <input type="submit" value="Sing me up!">
-            <a href="www.tripadvisor.com/‎">
-                <i class="fab fa-tripadvisor"></i>
-            </a>
-            <a href="https://www.facebook.com/">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/">
-                <i class="fab fa-twitter-square"></i>
-            </a>
+
+            <div class="input">
+                <h3>stay In Touch</h3>
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="submit" value="Sing me up!">
+            </div>
+            <div class="links">
+                <a href="www.tripadvisor.com/‎">
+                    <i class="fab fa-tripadvisor fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                </a>
+            </div>
         </footer>
 
     </div>
