@@ -9,20 +9,22 @@
 
 /*all flex row elements*/
 
-.Home {
-    display: flex;
-    flex-direction: row;
+#Home-wrapper {
+    background-color: darkgray;
+    position: relative;
+    width: 80%;
+    margin: auto;
 }
 
 /*all flex colom elements*/
 
 a {
     text-decoration: none;
-    text-align: center;
 }
 
 p,
-h2 {
+h2,
+a {
     text-align: center;
 }
 
@@ -56,37 +58,42 @@ h3 {
 
 /*navbar styling */
 
-.Home {
+.Nav-Home {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav-Home {
     z-index: 1;
     position: absolute;
     right: 0%;
     top: 3%;
 }
 
-.Home a {
+.Nav-Home a {
     color: #000;
     padding: 0% 0.5% 0%;
     margin: 0;
     padding: 0.5em 0;
 }
 
-.Home .bookARoom {
+.Nav-Home .Home-bookARoom {
     border: solid;
     border-radius: 0.5em;
 }
 
-.Home a div {
+.Nav-Home a div {
     width: 8em;
 }
 
 /*header styling*/
 
-#header,
-#visitorsForm div {
+#Home-header,
+#Home-visitorsForm div {
     position: relative;
 }
 
-#header h1 {
+#Home-header h1 {
     position: absolute;
     top: 70%;
     z-index: 1;
@@ -95,7 +102,7 @@ h3 {
 
 /*visitor form styling*/
 
-#visitorsForm {
+#Home-visitorsForm {
     background-color: white;
     width: 44%;
     height: 64%;
@@ -108,29 +115,29 @@ h3 {
     border-radius: 0.5em;
 }
 
-#visitorsForm div {
+#Home-visitorsForm div {
     width: 100%;
     /* height: 100%; */
 }
 
-#visitorsForm div input {
+#Home-visitorsForm div input {
     position: absolute;
     right: 5%;
     /* border-radius: 0.5em; */
 }
 
-#visitorsForm div label {
+#Home-visitorsForm div label {
     padding-left: 3%;
 }
 
-#visitorsForm div a {
+#Home-visitorsForm div a {
     text-align: center;
     color: black;
     display: inline-block;
     width: 100%;
 }
 
-.continue {
+.Home-continue {
     padding: 1em 2em;
     border: solid black 1px;
     border-radius: 0.5em;
@@ -140,42 +147,42 @@ input[maxlength="2"] {
     width: 10%
 }
 
-#visitorsForm div>input {
+#Home-visitorsForm div>input {
     top: 50%;
 }
 
 /*our servese section styling*/
 
-.container,
-.container2 {
+.Home-container,
+.Home-container2 {
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
 }
 
-.container div {
+.Home-container div {
     width: 33%;
     display: inline-block;
 }
 
-.container2 div {
+.Home-container2 div {
     width: 33%;
 }
 
-#ourServices h2 {
+#Home-ourServices h2 {
     margin: 10% 0% 5%;
 }
 
-#ourServices div p {
+#Home-ourServices div p {
     text-align: center;
 }
 
-#ourServices i {
+#Home-ourServices i {
     width: 100%;
     margin: 0 0% 10% 40%;
 }
 
-.ourRoomsButton {
+.Home-ourRoomsButton {
     width: 80%;
     height: 3em;
     display: block;
@@ -187,53 +194,53 @@ input[maxlength="2"] {
 
 /*paragraph and picture stylyng*/
 
-#ourBigRoom {
+#Home-ourBigRoom {
     display: flex;
 }
 
-#ourBigRoom img {
+#Home-ourBigRoom img {
     width: 100%;
     height: 100%;
 }
 
-.image {
+.Home-image {
     width: 66%;
     margin: 0px;
 }
 
-.paragraph {
+.Home-paragraph {
     width: 33%;
     margin: 0 0 0 1%;
 }
 
-.ourRoom {
+.Home-ourRoom {
     text-align: center;
     margin-top: 10%;
 }
 
-.ourRoom a {
+.Home-ourRoom a {
     text-decoration: none;
     color: #000;
 }
 
 /*what the guest say section*/
 
-#whatOurGuestSay {
+#Home-whatOurGuestSay {
     margin: 10% 0% 8% 0%;
 }
 
-#whatOurGuestSay .picwrapper .windows {
+#Home-whatOurGuestSay .Home-picwrapper .Home-windows {
     width: 33%;
 }
 
-.picwrapper {
+.Home-picwrapper {
     margin-top: 5%;
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.windows {
+.Home-windows {
     border: #000 solid 3px;
     background-color: #fff;
     border-radius: 3px;
@@ -245,7 +252,7 @@ figure {
 
 /*the stars in the boy and geril pictures*/
 
-.stars {
+.Home-stars {
     display: flex;
     flex-direction: row;
     margin: auto;
