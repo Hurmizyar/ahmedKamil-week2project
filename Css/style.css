@@ -81,18 +81,27 @@ a[href="html/rooms.html"] div {
 
 /*the junior suit section styling*/
 
+#juniorSuit {
+    background-color: #dcdcdc;
+}
+
 .JSpicture {
     width: 40%;
 }
 
 .juniorParagraph {
     width: 60%;
+    margin: auto;
 }
 
-.juniorParagraph p {
+.juniorParagraph .paragraphContainer p {
     width: 50%;
     margin: auto;
     text-align: left;
+}
+
+.paragraphContainer {
+    background-color: #fff;
 }
 
 /*featured rooms section in rooms.html*/
@@ -105,7 +114,7 @@ a[href="html/rooms.html"] div {
 .SR1,
 .SR2,
 .SR3 {
-    width: 22%;
+    width: 30%;
     display: inline-block;
 }
 
@@ -126,6 +135,15 @@ a[href="html/rooms.html"] div {
 .SR2 .SRImg {
     height: 23%;
     overflow: hidden;
+}
+
+#standardRooms {
+    margin-bottom: 10%;
+}
+
+#standardRooms .booknow {
+    display: inline;
+    margin-left: 40%;
 }
 
 /* .middlePic {
