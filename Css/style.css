@@ -2,6 +2,7 @@
 
 /*global selectors*/
 
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
 .Wrapper {
     width: 70%;
     margin: auto;
@@ -10,6 +11,13 @@
 
 img {
     width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
 }
 
 p,
