@@ -1,54 +1,15 @@
-/*styling for the home page  */
+/*wrapper styling*/
 
-/*universal styling*/
+/*global selectors*/
 
 @import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
-#Contact-wrapper * {
-    margin: auto;
-}
-
-/*all flex row elements*/
-
-.Home {
-    display: flex;
-    flex-direction: row;
-}
-
-/*all flex colom elements*/
-
-#Contact-wrapper,
 .Room-Wrapper {
     width: 80%;
     margin: auto;
     position: relative;
 }
 
-#Contact-wrapper iframe {
-    width: 96%;
-}
-
-a {
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-p,
-h2 {
-    text-align: center;
-}
-
-.col1 {
-    width: 33%;
-}
-
-.col2 {
-    width: 66%;
-}
-
-img,
-iframe,
-video {
+img {
     width: 100%;
 }
 
@@ -66,14 +27,6 @@ h3 {
     text-align: center;
 }
 
-header,
-.standardRoomWraper,
-#juniorSuit,
-#mastersuit,
-.navContact,
-#Contact-header,
-#Contact-ourLocation,
-.navContact,
 .Room-header,
 .Room-standardRoomWraper,
 #Room-juniorSuit,
@@ -83,7 +36,6 @@ header,
     flex-direction: row;
 }
 
-#Contact-header,
 .Room-header {
     position: relative;
 }
@@ -91,7 +43,7 @@ header,
 .Room-nav {
     position: absolute;
     right: 0;
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 
 .Room-nav div {
@@ -203,274 +155,6 @@ a[href="html/rooms.html"] div {
 }
 
 /*footer styling for rooms*/
-
-#wrapper {
-    background-color: darkgray;
-    position: relative;
-    width: 80%;
-    margin: auto;
-}
-
-/*navbar styling */
-
-.Home {
-    z-index: 1;
-    position: absolute;
-    right: 0%;
-    top: 3%;
-}
-
-.Home a {
-    color: #000;
-    padding: 0% 0.5% 0%;
-    margin: 0;
-    padding: 0.5em 0;
-}
-
-.Home .bookARoom {
-    border: solid;
-    border-radius: 0.5em;
-}
-
-.Home a div {
-    width: 8em;
-}
-
-/*header styling*/
-
-#header,
-#visitorsForm div {
-    position: relative;
-}
-
-#header h1 {
-    position: absolute;
-    top: 70%;
-    z-index: 1;
-    margin-left: 1%;
-}
-
-/*visitor form styling*/
-
-#visitorsForm {
-    background-color: white;
-    width: 44%;
-    height: 64%;
-    z-index: 2;
-    position: absolute;
-    left: 52%;
-    top: 41%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0.5em;
-}
-
-#visitorsForm div {
-    width: 100%;
-    /* height: 100%; */
-}
-
-#visitorsForm div input {
-    position: absolute;
-    right: 5%;
-    /* border-radius: 0.5em; */
-}
-
-#visitorsForm div label {
-    padding-left: 3%;
-}
-
-#visitorsForm div a {
-    text-align: center;
-    color: black;
-    display: inline-block;
-    width: 100%;
-}
-
-.continue {
-    padding: 1em 2em;
-    border: solid black 1px;
-    border-radius: 0.5em;
-}
-
-input[maxlength="2"] {
-    width: 10%
-}
-
-#visitorsForm div>input {
-    top: 50%;
-}
-
-/*our servese section styling*/
-
-.container,
-.container2 {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10%;
-}
-
-.container div {
-    width: 33%;
-    display: inline-block;
-}
-
-.container2 div {
-    width: 33%;
-}
-
-#ourServices h2 {
-    margin: 10% 0% 5%;
-}
-
-#ourServices div p {
-    text-align: center;
-}
-
-#ourServices i {
-    width: 100%;
-    margin: 0 0% 10% 40%;
-}
-
-.ourRoomsButton {
-    width: 80%;
-    height: 3em;
-    display: block;
-    border-radius: 0.5em;
-    background: white;
-    border: #000 solid 0.2em;
-    text-transform: capitalize;
-}
-
-/*paragraph and picture stylyng*/
-
-#ourBigRoom {
-    display: flex;
-}
-
-#ourBigRoom img {
-    width: 100%;
-    height: 100%;
-}
-
-.image {
-    width: 66%;
-    margin: 0px;
-}
-
-.paragraph {
-    width: 33%;
-    margin: 0 0 0 1%;
-}
-
-.ourRoom {
-    text-align: center;
-    margin-top: 10%;
-}
-
-.ourRoom a {
-    text-decoration: none;
-    color: #000;
-}
-
-/*what the guest say section*/
-
-#whatOurGuestSay {
-    margin: 10% 0% 8% 0%;
-}
-
-#whatOurGuestSay .picwrapper .windows {
-    width: 33%;
-}
-
-.picwrapper {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.windows {
-    border: #000 solid 3px;
-    background-color: #fff;
-    border-radius: 3px;
-}
-
-figure {
-    width: 80%;
-}
-
-/*the stars in the boy and geril pictures*/
-
-.stars {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 100%;
-    border-radius: 0.2em;
-}
-
-.Contact-contacH1 {
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-    top: 10%;
-    left: 34%;
-    background: white;
-    opacity: 0.8;
-    padding: 1em 8em;
-}
-
-/* {
-    display: flex;
-    flex-direction: row;
-} */
-
-/*iframe and location section*/
-
-.Contact-iframe {
-    width: 80%;
-}
-
-.Contact-ourLocationData {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
-
-.Contact-ourLocationData div {
-    height: 25%;
-    margin: 0px;
-}
-
-#Contact-getInTouch {
-    display: flex;
-    flex-direction: row;
-}
-
-.Contact-getinTouchImgDiv {
-    height: 100%;
-    width: 40%;
-}
-
-.Contact-getInTouch h2 {
-    text-align: center;
-}
-
-.Contact-getInTouch {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.Contact-getInTouch input,
-textarea {
-    width: 60%;
-    margin: 3% auto 0;
-    border: solid black 0.2em;
-    border-radius: 0.2em;
-    padding: 3%
-}
 
 footer {
     background-color: rgb(43, 33, 21);
