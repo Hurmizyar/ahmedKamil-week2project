@@ -11,6 +11,7 @@
 a {
     text-decoration: none;
     text-align: center;
+    color: #000;
 }
 
 p,
@@ -162,9 +163,14 @@ footer h3 {
     margin: 1% 0% 1% 3%;
 }
 
-.input h3,
-input[type="submit"] {
+.input h3 {
     color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #2b2115;
+    color: #fff;
+    margin-bottom: 2%;
 }
 
 .input>input[type="submit"] {
@@ -183,4 +189,51 @@ footer a {
 
     {
     margin: auto;
+}
+
+i[class="fas fa-bars fa-3x"] {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #Contact-wrapper {
+        font-size: 0.8em;
+    }
+    #Contact-ourLocation {
+        flex-direction: column;
+    }
+    #Contact-getInTouch {
+        flex-direction: column-reverse;
+    }
+    .col1 {
+        width: 100%;
+    }
+    .Contact-location {
+        text-align: center;
+        margin: 2% 0;
+    }
+    .navContact a {
+        display: none;
+    }
+    i[class="fas fa-bars fa-3x"] {
+        display: inline-block;
+        background-color: transparent;
+        position: relative;
+        right: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #Contact-wrapper {
+        width: 100%;
+        min-width: 400px;
+        /* font-size: 0.5em; */
+    }
+    .Contact-location {
+        text-align: left;
+        font-size: 1em;
+    }
 }

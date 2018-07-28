@@ -212,6 +212,15 @@ i[class="fas fa-bars fa-3x"] {
     .Room-Wrapper {
         font-size: 0.8em;
     }
+    .Room-nav a {
+        display: none;
+    }
+    i[class="fas fa-bars fa-3x"] {
+        display: inline-block;
+        background-color: transparent;
+        position: relative;
+        right: 100%;
+    }
 }
 
 @media only screen and (max-width: 700px) {
