@@ -1,10 +1,10 @@
-#wrapperContact {
-    width: 70%;
+#Contact-wrapper {
+    width: 80%;
     margin: auto;
     position: relative;
 }
 
-#wrapperContact iframe {
+#Contact-wrapper iframe {
     width: 96%;
 }
 
@@ -31,8 +31,8 @@ video {
     width: 100%;
 }
 
-#headerContact,
-#ourLocation,
+#Contact-header,
+#Contact-ourLocation,
 .navContact
 /*header*/
 
@@ -41,7 +41,7 @@ video {
     flex-direction: row;
 }
 
-#headerContact {
+#Contact-header {
     position: relative;
 }
 
@@ -74,7 +74,7 @@ a[href="html/rooms.html"] div {
     border-radius: 0.2em;
 }
 
-.contacH1 {
+.Contact-contacH1 {
     text-align: center;
     z-index: 1;
     position: absolute;
@@ -92,21 +92,21 @@ a[href="html/rooms.html"] div {
 
 /*iframe and location section*/
 
-.iframe {
+.Contact-iframe {
     width: 80%;
 }
 
-.ourLocationData {
+.Contact-ourLocationData {
     width: 20%;
     display: flex;
     flex-direction: column;
 }
 
-.ourLocationData div {
+.Contact-ourLocationData div {
     height: 25%;
 }
 
-#getInTouch
+#Contact-getInTouch
 /*the get in touch section */
 
     {
@@ -114,22 +114,22 @@ a[href="html/rooms.html"] div {
     flex-direction: row;
 }
 
-.getinTouchImgDiv {
+.Contact-getinTouchImgDiv {
     height: 100%;
     width: 40%;
 }
 
-.getInTouch h2 {
+.Contact-getInTouch h2 {
     text-align: center;
 }
 
-.getInTouch {
+.Contact-getInTouch {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
-.getInTouch input,
+.Contact-getInTouch input,
 textarea {
     width: 60%;
     margin: 3% auto 0;
