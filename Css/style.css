@@ -3,8 +3,8 @@
 /*global selectors*/
 
 @import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
-.Wrapper {
-    width: 70%;
+.Room-Wrapper {
+    width: 80%;
     margin: auto;
     position: relative;
 }
@@ -27,30 +27,30 @@ h3 {
     text-align: center;
 }
 
-header,
-.standardRoomWraper,
-#juniorSuit,
-#mastersuit,
-.navContact {
+.Room-header,
+.Room-standardRoomWraper,
+#Room-juniorSuit,
+#Room-mastersuit,
+.Room-nav {
     display: flex;
     flex-direction: row;
 }
 
-header {
+.Room-header {
     position: relative;
 }
 
-.navContact {
+.Room-nav {
     position: absolute;
     right: 0;
     margin-top: 1.5%;
 }
 
-.navContact div {
+.Room-nav div {
     padding: 1em 2em;
 }
 
-.navContact a
+.Room-nav a
 /*nav bar for contact*/
 
     {
@@ -70,18 +70,18 @@ a[href="html/rooms.html"] div {
     display: inline-block;
 }
 
-.booknow {
+.Room-booknow {
     margin: 10% 0 10% 33%;
     display: inline-block;
 }
 
-.booknow div {
+.Room-booknow div {
     padding: 1em 5em;
 }
 
 /*paragraph section styling*/
 
-.paragraph p {
+.Room-paragraph p {
     text-align: left;
     width: 60%;
     margin: auto;
@@ -89,79 +89,70 @@ a[href="html/rooms.html"] div {
 
 /*the junior suit section styling*/
 
-#juniorSuit {
+#Room-juniorSuit {
     background-color: #dcdcdc;
 }
 
-.JSpicture {
+.Room-JSpicture {
     width: 40%;
 }
 
-.juniorParagraph {
+.Room-juniorParagraph {
     width: 60%;
     margin: auto;
 }
 
-.juniorParagraph .paragraphContainer p {
+.Room-juniorParagraph .Room-paragraphContainer p {
     width: 50%;
     margin: auto;
     text-align: left;
 }
 
-.paragraphContainer {
+.Room-paragraphContainer {
     background-color: #fff;
 }
 
 /*featured rooms section in rooms.html*/
 
-#roomwraper h1 {
+#Room-roomwraper h1 {
     text-align: center;
     padding: 2%;
 }
 
-.SR1,
-.SR2,
-.SR3 {
+.Room-SR1,
+.Room-SR2,
+.Room-SR3 {
     width: 30%;
     display: inline-block;
 }
 
-.SR1 {
+.Room-SR1 {
     margin-left: 2.5%;
     margin-right: 5%;
 }
 
-.SR2 {
+.Room-SR2 {
     margin: 0 5%;
 }
 
-.SR3 {
+.Room-SR3 {
     margin-left: 5%;
     margin-right: 2.5%;
 }
 
-.SR2 .SRImg {
+.Room-SR2 .Room-SRImg {
     height: 23%;
     overflow: hidden;
 }
 
-#standardRooms {
+#Room-standardRooms {
     margin-bottom: 10%;
 }
 
-#standardRooms .booknow {
+#Room-standardRooms .Room-booknow {
     display: inline;
     margin-left: 40%;
 }
-
-/* .middlePic {
-    position: relative;
-    top: -85%;
-} */
-
-/* .standardRoomWraper div {
-    
-} */
 
 /*footer styling for rooms*/
 
