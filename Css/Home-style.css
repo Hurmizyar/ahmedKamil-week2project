@@ -162,27 +162,31 @@ input[maxlength="2"] {
 
 /*our servese section styling*/
 
-.Home-container,
-.Home-container2 {
+.Home-OurServices {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10%;
+    flex-wrap: wrap;
 }
 
-.Home-container div {
-    width: 33%;
+.Home-OurServices div {
+    width: 30%;
+    margin: 0 1%;
+    padding: 0 0 10% 0;
 }
 
-.Home-container2 div {
-    width: 33%;
+.Home-OurServices h2 {
+    font-size: 3em;
+    font-family: 'dosis', sans-serif;
+    font-weight: 1;
+    padding-bottom: 5%;
 }
 
-#Home-ourServices h2 {
-    margin: 10% 0% 5%;
-}
-
-#Home-ourServices div p {
+.Home-OurServices h4 {
     text-align: center;
+}
+
+#Home-ourServices {
+    margin-top: 5%;
 }
 
 #Home-ourServices i {
@@ -378,5 +382,11 @@ footer a {
     }
     .Home-picwrapper div {
         width: 100%;
+    }
+    .Home-OurServices div {
+        width: 48%;
+    }
+    #Home-ourServices {
+        margin-top: 20%
     }
 }
