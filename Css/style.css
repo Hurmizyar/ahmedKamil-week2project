@@ -16,6 +16,16 @@
 
 /*all flex colom elements*/
 
+#Contact-wrapper {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#Contact-wrapper iframe {
+    width: 96%;
+}
+
 a {
     text-decoration: none;
     text-align: center;
@@ -58,19 +68,24 @@ header,
 .standardRoomWraper,
 #juniorSuit,
 #mastersuit,
-.navContact {
+.navContact #Contact-header,
+#Contact-ourLocation,
+.navContact
+/*header*/
+
+    {
     display: flex;
     flex-direction: row;
 }
 
-header {
+#Contact-header {
     position: relative;
 }
 
 .navContact {
     position: absolute;
     right: 0;
-    margin-top: 1.5%;
+    margin-top: 3%;
 }
 
 .navContact div {
@@ -395,6 +410,71 @@ figure {
     flex-direction: row;
     margin: auto;
     width: 100%;
+    border-radius: 0.2em;
+}
+
+.Contact-contacH1 {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    background: white;
+    opacity: 0.8;
+    padding: 1em 8em;
+}
+
+/* {
+    display: flex;
+    flex-direction: row;
+} */
+
+/*iframe and location section*/
+
+.Contact-iframe {
+    width: 80%;
+}
+
+.Contact-ourLocationData {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-ourLocationData div {
+    height: 25%;
+}
+
+#Contact-getInTouch
+/*the get in touch section */
+
+    {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact-getinTouchImgDiv {
+    height: 100%;
+    width: 40%;
+}
+
+.Contact-getInTouch h2 {
+    text-align: center;
+}
+
+.Contact-getInTouch {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.Contact-getInTouch input,
+textarea {
+    width: 60%;
+    margin: 3% auto 0;
+    border: solid black 0.2em;
+    border-radius: 0.2em;
+    padding: 3%
 }
 
 footer {
