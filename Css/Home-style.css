@@ -1,0 +1,300 @@
+/*styling for the home page  */
+
+/*universal styling*/
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
+* {
+    margin: auto;
+}
+
+/*all flex row elements*/
+
+#Home-wrapper {
+    background-color: darkgray;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+/*all flex colom elements*/
+
+a {
+    text-decoration: none;
+}
+
+p,
+h2,
+a {
+    text-align: center;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col2 {
+    width: 66%;
+}
+
+img,
+iframe,
+video {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+#wrapper {
+    background-color: darkgray;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+/*navbar styling */
+
+.Nav-Home {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav-Home {
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    top: 3%;
+}
+
+.Nav-Home a {
+    color: #000;
+    padding: 0% 0.5% 0%;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.Nav-Home .Home-bookARoom {
+    border: solid;
+    border-radius: 0.5em;
+}
+
+.Nav-Home a div {
+    width: 8em;
+}
+
+/*header styling*/
+
+#Home-header,
+#Home-visitorsForm div {
+    position: relative;
+}
+
+#Home-header h1 {
+    position: absolute;
+    top: 70%;
+    z-index: 1;
+    margin-left: 1%;
+}
+
+/*visitor form styling*/
+
+#Home-visitorsForm {
+    background-color: white;
+    width: 44%;
+    height: 64%;
+    z-index: 2;
+    position: absolute;
+    left: 52%;
+    top: 41%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+}
+
+#Home-visitorsForm div {
+    width: 100%;
+    /* height: 100%; */
+}
+
+#Home-visitorsForm div input {
+    position: absolute;
+    right: 5%;
+    /* border-radius: 0.5em; */
+}
+
+#Home-visitorsForm div label {
+    padding-left: 3%;
+}
+
+#Home-visitorsForm div a {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+.Home-continue {
+    padding: 1em 2em;
+    border: solid black 1px;
+    border-radius: 0.5em;
+}
+
+input[maxlength="2"] {
+    width: 10%
+}
+
+#Home-visitorsForm div>input {
+    top: 50%;
+}
+
+/*our servese section styling*/
+
+.Home-container,
+.Home-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.Home-container div {
+    width: 33%;
+    display: inline-block;
+}
+
+.Home-container2 div {
+    width: 33%;
+}
+
+#Home-ourServices h2 {
+    margin: 10% 0% 5%;
+}
+
+#Home-ourServices div p {
+    text-align: center;
+}
+
+#Home-ourServices i {
+    width: 100%;
+    margin: 0 0% 10% 40%;
+}
+
+.Home-ourRoomsButton {
+    width: 80%;
+    height: 3em;
+    display: block;
+    border-radius: 0.5em;
+    background: white;
+    border: #000 solid 0.2em;
+    text-transform: capitalize;
+}
+
+/*paragraph and picture stylyng*/
+
+#Home-ourBigRoom {
+    display: flex;
+}
+
+#Home-ourBigRoom img {
+    width: 100%;
+    height: 100%;
+}
+
+.Home-image {
+    width: 66%;
+    margin: 0px;
+}
+
+.Home-paragraph {
+    width: 33%;
+    margin: 0 0 0 1%;
+}
+
+.Home-ourRoom {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Home-ourRoom a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*what the guest say section*/
+
+#Home-whatOurGuestSay {
+    margin: 10% 0% 8% 0%;
+}
+
+#Home-whatOurGuestSay .Home-picwrapper .Home-windows {
+    width: 33%;
+}
+
+.Home-picwrapper {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Home-windows {
+    border: #000 solid 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+figure {
+    width: 80%;
+}
+
+/*the stars in the boy and geril pictures*/
+
+.Home-stars {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(43, 33, 21);
+    display: flex;
+    flex-direction: row;
+}
+
+footer h3 {
+    margin: 3% 0% 0% 5%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 2%;
+}
+
+.input input {
+    width: 80%;
+    border-radius: 5px;
+    border-color: #000;
+    margin: 1% 0% 1% 3%;
+}
+
+.input h3,
+input[type="submit"] {
+    color: #fff;
+}
+
+.input>input[type="submit"] {
+    background-color: transparent;
+}
+
+footer a {
+    font-size: 1em;
+    text-decoration: none;
+    word-spacing: 5em;
+    color: white;
+}
