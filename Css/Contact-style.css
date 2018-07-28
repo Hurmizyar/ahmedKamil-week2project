@@ -1,0 +1,186 @@
+#Contact-wrapper {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#Contact-wrapper iframe {
+    width: 96%;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+p,
+h2 {
+    text-align: center;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col2 {
+    width: 66%;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+#Contact-header,
+#Contact-ourLocation,
+.navContact
+/*header*/
+
+    {
+    display: flex;
+    flex-direction: row;
+}
+
+#Contact-header {
+    position: relative;
+}
+
+.navContact {
+    position: absolute;
+    right: 0;
+    margin-top: 3%;
+}
+
+.navContact div {
+    padding: 1em 2em;
+}
+
+.navContact a
+/*nav bar for contact*/
+
+    {
+    /* position: absolute; */
+    padding: 0em 1em;
+    text-decoration: none;
+    color: #000;
+    /* margin-top: 50% */
+}
+
+a[href="html/rooms.html"] div {
+    border: solid black 0.3em;
+    color: white;
+    background-color: rgba(149, 179, 165, 0.87);
+    color: white;
+    border-radius: 0.2em;
+}
+
+.Contact-contacH1 {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    background: white;
+    opacity: 0.8;
+    padding: 1em 8em;
+}
+
+/* {
+    display: flex;
+    flex-direction: row;
+} */
+
+/*iframe and location section*/
+
+.Contact-iframe {
+    width: 80%;
+}
+
+.Contact-ourLocationData {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-ourLocationData div {
+    height: 25%;
+}
+
+#Contact-getInTouch
+/*the get in touch section */
+
+    {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact-getinTouchImgDiv {
+    height: 100%;
+    width: 40%;
+}
+
+.Contact-getInTouch h2 {
+    text-align: center;
+}
+
+.Contact-getInTouch {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.Contact-getInTouch input,
+textarea {
+    width: 60%;
+    margin: 3% auto 0;
+    border: solid black 0.2em;
+    border-radius: 0.2em;
+    padding: 3%
+}
+
+footer {
+    background-color: rgb(43, 33, 21);
+    display: flex;
+    flex-direction: row;
+}
+
+footer h3 {
+    margin: 3% 0% 0% 5%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 2%;
+}
+
+.input input {
+    width: 80%;
+    border-radius: 5px;
+    border-color: #000;
+    margin: 1% 0% 1% 3%;
+}
+
+.input h3,
+input[type="submit"] {
+    color: #fff;
+}
+
+.input>input[type="submit"] {
+    background-color: transparent;
+}
+
+footer a {
+    font-size: 1em;
+    text-decoration: none;
+    word-spacing: 5em;
+    color: white;
+}
+
+.links
+/*the div container for footerf icons*/
+
+    {
+    margin: auto;
+}
