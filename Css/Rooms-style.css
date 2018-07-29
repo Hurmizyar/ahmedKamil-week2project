@@ -142,8 +142,13 @@ a[href="rooms.html"] div {
 }
 
 .Room-SR2 .Room-SRImg {
-    height: 23%;
+    height: 34%;
     overflow: hidden;
+}
+
+.Room-SR2 .Room-SRImg img {
+    position: relative;
+    top: -53%;
 }
 
 #Room-standardRooms {
@@ -208,7 +213,7 @@ i[class="fas fa-bars fa-3x"] {
     display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .Room-Wrapper {
         font-size: 0.8em;
     }

@@ -23,7 +23,8 @@ h2 {
     width: 33%;
 }
 
-h2 {
+h2,
+h3 {
     text-transform: uppercase;
 }
 
@@ -83,8 +84,8 @@ a[href="rooms.html"] div {
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 10%;
-    left: 24%;
+    top: 12%;
+    left: 33%;
     background: white;
     opacity: 0.8;
     padding: 1em 8em;
@@ -199,7 +200,7 @@ i[class="fas fa-bars fa-3x"] {
     display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     #Contact-wrapper {
         font-size: 0.8em;
     }
@@ -208,6 +209,10 @@ i[class="fas fa-bars fa-3x"] {
     }
     #Contact-getInTouch {
         flex-direction: column-reverse;
+    }
+    .Contact-contacH1 {
+        top: 6%;
+        padding: 1em 6em;
     }
     .col1 {
         width: 100%;
@@ -236,11 +241,22 @@ i[class="fas fa-bars fa-3x"] {
         min-width: 400px;
         /* font-size: 0.5em; */
     }
+    /* img {
+        width: 80%;
+    } */
     .Contact-location {
         text-align: left;
         font-size: 1em;
     }
+    .Contact-ourLocationData div {
+        font-size: 2em;
+    }
     footer a {
         word-spacing: 3em;
+    }
+    .Contact-contacH1 {
+        top: 6%;
+        left: 20%;
+        padding: 1em 6em;
     }
 }

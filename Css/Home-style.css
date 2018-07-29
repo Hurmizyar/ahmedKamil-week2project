@@ -44,7 +44,8 @@ video {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
 }
@@ -66,7 +67,7 @@ h3 {
 .Nav-Home {
     z-index: 1;
     position: absolute;
-    right: 0%;
+    right: 3%;
     top: 3%;
 }
 
@@ -176,7 +177,7 @@ input[maxlength="2"] {
     padding: 0 0 10% 0;
 }
 
-.Home-OurServices h2 {
+#Home-ourServices h2 {
     font-size: 3em;
     font-family: 'dosis', sans-serif;
     font-weight: 1;
@@ -227,6 +228,10 @@ input[maxlength="2"] {
     margin: 0 0 0 1%;
 }
 
+.Home-paragraph p {
+    text-align: left;
+}
+
 .Home-ourRoom {
     text-align: center;
     margin-top: 10%;
@@ -241,6 +246,10 @@ input[maxlength="2"] {
 
 #Home-whatOurGuestSay {
     margin: 10% 0% 8% 0%;
+}
+
+#Home-whatOurGuestSay h2 {
+    font-size: 3em;
 }
 
 #Home-whatOurGuestSay .Home-picwrapper .Home-windows {
@@ -275,6 +284,7 @@ figure img {
     flex-direction: row;
     margin: auto;
     width: 100%;
+    padding-top: 3%;
 }
 
 footer {
@@ -318,7 +328,7 @@ footer a {
     color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     html {
         font-size: 0.8em;
     }
