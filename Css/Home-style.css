@@ -80,6 +80,8 @@ h3 {
 .Nav-Home .Home-bookARoom {
     border: solid;
     border-radius: 0.5em;
+    background-color: #51372b;
+    color: white;
 }
 
 .Nav-Home a div {
