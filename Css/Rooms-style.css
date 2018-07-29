@@ -250,4 +250,7 @@ i[class="fas fa-bars fa-3x"] {
     #Room-juniorSuit {
         background-color: #fff
     }
+    footer a {
+        word-spacing: 3em;
+    }
 }

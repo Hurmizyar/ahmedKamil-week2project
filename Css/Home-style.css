@@ -341,6 +341,9 @@ footer a {
         margin-left: 18%;
         font-size: 3.5em;
     }
+    footer a {
+        word-spacing: 3em;
+    }
 }
 
 @media only screen and (max-width: 700px) {
